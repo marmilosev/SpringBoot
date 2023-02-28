@@ -5,6 +5,8 @@ Classic “Hello World!” endpoint which any browser can connect to
 2. Open up the project in your IDE.
 3. Position in src/main/java/com.helloWorldEndpoint.endpointTest.
 4. Put this code:
+
+
   	import org.springframework.boot.SpringApplication;
 	import org.springframework.boot.autoconfigure.SpringBootApplication;
 	import org.springframework.web.bind.annotation.GetMapping;
@@ -21,6 +23,7 @@ Classic “Hello World!” endpoint which any browser can connect to
 			return String.format("Hello %s!", name);
 		}
 	} 
+     
      
  5. Build and run the program. For this project you need to inside Lifecycle click on install to compile the project's source code. Or in Command Prompt or Terminal write this command if you are on Windows: .\gradlew.bat bootRun or if you are on Linux/MacOs: ./gradlew bootRun
  6. Open your browser and in the address bar at the top enter http://localhost:8080/hello
