@@ -12,11 +12,10 @@ Classic “Hello World!” endpoint which any browser can connect to
 	import org.springframework.web.bind.annotation.GetMapping;
 	import org.springframework.web.bind.annotation.RequestParam;
 	import org.springframework.web.bind.annotation.RestController;
-@SpringBootApplication
-@RestController 
+	@SpringBootApplication
+	@RestController 
 	
 	public class EndpointTestApplication {
-	
 	public static void main(String[] args) {
 		SpringApplication.run(EndpointTestApplication.class, args);
 	}
@@ -24,8 +23,7 @@ Classic “Hello World!” endpoint which any browser can connect to
 	public String hello (@RequestParam(value="name", defaultValue="World")String name) {
 		return String.format("Hello %s!", name);
 	}
-
-}
+	}
      
      
  5. Build and run the program. For this project you need to inside Lifecycle click on install to compile the project's source code. Or in Command Prompt or Terminal write this command if you are on Windows: .\gradlew.bat bootRun or if you are on Linux/MacOs: ./gradlew bootRun
