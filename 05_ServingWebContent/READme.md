@@ -1,5 +1,4 @@
-Serving Web Content with Spring MVC
-Creating a “Hello, World” web site with Spring.
+Serving Web Content with Spring MVC - Creating a “Hello, World” web site with Spring.
 
 1. With Spring Initializr create project. Dependencies needed are Spring Web, Spring Boot DevTools and Thymeleaf.
 2. Open the project in IDE.
